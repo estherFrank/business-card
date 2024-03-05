@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background: #ffd166;
+}
+
+.avatar {
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.avatar:hover {
+    border: 1px solid #EF476F;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #118AB2;
+    color: #FFFFFF;
+    border: 6px solid #118AB2;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px #DDB557;
+    border: 6px solid #EF476F;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.text:hover {
+    color: #EF476F;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
